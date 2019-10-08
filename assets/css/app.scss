@@ -16,8 +16,8 @@ $grey-dark: $brown;
 $grey-light: $beige-light;
 $primary: $purple;
 $link: $pink;
-$widescreen-enabled: false;
-$fullhd-enabled: false;
+$widescreen-enabled: true;
+$fullhd-enabled: true;
 
 // Update some of Bulma's component variables
 $body-background-color: $beige-lighter;
@@ -27,3 +27,4 @@ $input-shadow: none;
 
 //Import Bulma
 @import 'bulma';
+@import 'pages/index'
