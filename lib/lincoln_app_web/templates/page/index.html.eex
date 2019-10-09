@@ -3,7 +3,9 @@
     <div class="container">
       <h1 class="title">
        Lincoln App
+        <a  href="/admins/new"class="button">Create<%= link "+", to: "/rooms/new" %></a>
       </h1>
+     
      
     </div>
   </div>

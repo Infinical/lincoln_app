@@ -17,6 +17,7 @@ defmodule LincolnAppWeb.Router do
     pipe_through :browser
 
     get "/", PageController, :index
+    resources "/admins", AdminController
   end
 
   # Other scopes may use custom stacks.
